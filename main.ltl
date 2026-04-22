@@ -1,0 +1,15 @@
+// ltl-png-read/main.ltl
+//
+// PNG decoder — chunks, filters, IDAT inflate, alpha.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-png-read v0.1.0")
+    io::println("PNG decoder — chunks, filters, IDAT inflate, alpha.")
+    0
+}
